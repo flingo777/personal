@@ -95,6 +95,20 @@ body {
 /*-webkit-backdrop-filter: blur( 20px );*/
 }
 
+.chess{
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 0%, bottom;
+	color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
 .banner {
   height: 200px;
   width: 500px;
@@ -153,6 +167,15 @@ hr {
   text-decoration: none;
   border-radius: 50%;
 }
+.fas {
+  padding: 10px;
+  font-size: 25px;
+  /* width: 30px; */
+  /*text-align: center;*/
+  text-decoration: none;
+  border-radius: 50%;
+}
+
 .fa-discord {
   color: #5865F2;
 }
@@ -160,30 +183,68 @@ hr {
 	color: #7289da;
 }
 .fa-youtube {
-  color: #FF0000;
+  color: #cf0000;
 }
 .fa-youtube:hover {
-	color: red;
-}
-.fa-twitch:hover {
-	color: purple;
-}
-.fa-github:hover {
-  color: black;
-}
-.fa-reddit {
-  color: #FF4500;
-}
-.fa-reddit:hover {
-  color: #ff4500;
-}
-.fa-spotify:hover {
-  color: #1ed760;
-}
-.fa-steam:hover {
-  color: #0b1c4a;
+	color: rgb(255, 0, 0);
 }
 
+.fa-twitch{
+  color: rgb(169, 0, 169);
+}
+
+.fa-twitch:hover {
+	color: rgb(231, 0, 231);
+}
+
+.fa-github{
+  color: rgb(255, 255, 255);
+}
+
+.fa-github:hover {
+  color: rgb(0, 0, 0);
+}
+.fa-reddit-alien {
+  color: #FF4500;
+}
+.fa-reddit-alien:hover {
+  color: #ff5c20;
+}
+
+.fa-spotify{
+  color:#1ed760;
+}
+
+.fa-spotify:hover {
+  color: #25ff71;
+}
+
+.fa-steam{
+  color:#0063ee;
+}
+.fa-steam:hover {
+  color: #00adee;
+}
+
+.fa-twitter{
+  color: #00acee;
+}
+
+.fa-twitter:hover {
+  color: #22e9ff;
+}
+
+.fa-chess-pawn{
+  color:rgb(0, 177, 0);
+}
+
+.fa-chess-pawn:hover{
+  color:rgb(0, 249, 0);
+}
+
+.fa-chess-knight:hover{
+  color:black;
+}
 .fa-chevron-down {
   font-size: 50px;
   text-decoration: none;
@@ -271,3 +332,4 @@ a {
     width: 250px;
   }
 }
+
